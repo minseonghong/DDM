@@ -1,0 +1,37 @@
+https://github.com/minseonghong/hong.git
+
+https://github.com/minseonghong/minseonghong.git
+
+git config --global user.email 1563alseod@gachon.ac.kr
+git config --global user.name minseonghong
+
+
+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
+
+
+@ARTICLE{FangFTHD2024,
+AUTHOR    =  "Shiming Fang and Kaiyan Yu",
+TITLE     = "{Fine-Tuning Hybrid Physics-Informed Neural Networks for Vehicle Dynamics Model Estimation}",
+JOURNAL   =  "arXiv preprint arXiv:2409.19647",
+YEAR      =  "2024"
+} 
+
+
+Installation
+
+Package is both tested in Ubuntu20.04 and Win11, working both cpu and gpu, please install cuda toolkit before gpu training, Ubuntu system recommended for wandb and raytune hyperparameter training.
+
+It is recommended to create a new conda environment:
+
+conda create --name fthd python=3.10
+conda activate fthd
+
+To install FTHD:
+
+git clone git@github.com:Heliosfang/FTHD.git
+cd fthd/
+pip install -e .
+
+
+
+https://github.com/minseonghong/DL.git

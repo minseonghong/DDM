@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fthd"
+authors = [
+    {name = "Shiming Fang", email = "sfang10@binghamton.edu"},
+]
+description = "Fine Tuning Hybrid Dynamics"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "TODO"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "matplotlib",
+    "numpy==1.26.4",
+    "torch",
+    "wandb",
+    "ray[tune]",
+    "scikit-learn",
+    "tqdm",
+    "argcomplete",
+    "optuna"
+]
+dynamic = ["version"]

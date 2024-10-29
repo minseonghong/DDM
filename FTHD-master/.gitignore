@@ -1,0 +1,10 @@
+fthd/output/*
+fthd/ray_results/*
+fthd/data/IAC_EKF_DATA/Putnam_park2023_run4_2_*RNN_Val.npz
+fthd/data/ETHZ/DYN-PP-ETHZ_*RNN_val.npz
+fthd/data/ETHZ/DYN-PP-ETHZ_*RNN.npz
+fthd/data/Denoised_IAC_DATA/denoised_csv_*RNN_val.npz
+fthd/model/__pycache__/*
+fthd/real_report_data/benchmark/__pycache__/*
+fthd/train/__pycache__/*
+fthd.egg-info/*
