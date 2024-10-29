@@ -7,11 +7,13 @@ Package is tested in Ubuntu20.04, working both cpu and gpu, please install cuda 
 
 It is recommended to create a new conda environment:
 
+
   conda create --name fthd python=3.10
 
   conda activate fthd
 
 To install FTHD:
+
 
   git clone https://github.com/minseonghong/DDM.git
   cd fthd/
@@ -24,7 +26,7 @@ Real data:
   fthd/data/IAC_EKF_DATA/Putnam_park2023_run4_2.csv
 
 MORAI simulation train data:
-  
+
   fthd/data/SIMULATION_DATA/simulation_train_dataset.csv
 
 MORAI simulation evaluation data:
