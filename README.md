@@ -15,7 +15,7 @@ To install FTHD:
 
   git clone https://github.com/minseonghong/DDM.git
   cd fthd/
-pip install -e .
+  pip install -e .
 
 # Dataset
 
