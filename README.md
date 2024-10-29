@@ -24,7 +24,7 @@ Real data:
   fthd/data/IAC_EKF_DATA/Putnam_park2023_run4_2.csv
 
 MORAI simulation train data:
-
+  
   fthd/data/SIMULATION_DATA/simulation_train_dataset.csv
 
 MORAI simulation evaluation data:
@@ -39,7 +39,7 @@ Real data:
 
     for i in {1..20}; do
       python csv_fthd_timeverify.py ../data/SIMULATION_DATA/Putnam_park2023_run4_2.csv $i
-  done
+    done
   
 MORAI simulation data:
 
