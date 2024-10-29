@@ -73,7 +73,7 @@ To evaluation the model in double lane change scenario:
     
     python speed_qualified_eval.py 
 
-The estimated tire model's parameters will be stored in fthd/real_report_data/benchmark/output/Best_Vehicle_Parameters.txt.
+The estimated vehicle's parameters will be stored in fthd/real_report_data/benchmark/output/Best_Vehicle_Parameters.txt.
 
 
 
